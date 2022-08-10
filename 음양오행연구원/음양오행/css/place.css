@@ -1,0 +1,21 @@
+/* ============================================== /*
+ *                    Place
+/* ============================================== */
+
+/* Place */
+#place { padding: 100px 0px; background-image: url('../images/sect_2.png'); }
+#place .place_area .rows { margin-bottom: 30px; }
+#place .place_area .rows h2 { margin-bottom: 10px; font-size: 24px; font-weight: bold; }
+#place .place_area .rows b { font-size: 36px; letter-spacing: 2px; color: #000; }
+#place .place_area .rows p { padding-left: 15px; font-size: 18px; font-weight: bold; line-height: 1.8em; background: url('../images/icon/dot.png') no-repeat left; background-position: top 14px left 5px; color: #555; }
+
+#place .place_area .map_area { padding-top: 20px; text-align: center; }
+#place .place_area .map_area .map_style { width: 100%; height: 450px; box-shadow: 0px 0px 10px #aaa; }
+
+@media (max-width: 767px) {
+	#place .place_area .rows h2 { font-size: 22px; }
+	#place .place_area .rows b { font-size: 32px; }
+	#place .place_area .rows p { font-size: 16px; }
+	#place .place_area .map_area .map_style,
+	#place .place_area .map_area .map_style iframe { height: 220px; }
+}

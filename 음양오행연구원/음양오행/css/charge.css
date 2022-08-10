@@ -1,0 +1,24 @@
+/* ============================================== /*
+ *                    Charge
+/* ============================================== */
+
+/* Charge */
+#charge { padding: 100px 0px; background-image: url('../images/sect_2.png'); }
+#charge .charge_area .rows { margin-bottom: 30px; }
+#charge .charge_area .rows h2 { margin-bottom: 10px; font-size: 24px; font-weight: bold; }
+#charge .charge_area .rows p { padding-left: 15px; font-size: 18px; font-weight: bold; line-height: 1.8em; background: url('../images/icon/dot.png') no-repeat left; background-position: top 14px left 5px; color: #555; }
+
+#charge .charge_area .table_area { box-shadow: 0px 0px 10px #aaa; text-align: center; }
+#charge .charge_area .table_area table { margin: 0 auto; text-align: center; }
+#charge .charge_area .table_area table th,
+#charge .charge_area .table_area table td { padding: 12px 0px; font-weight: bold; border: 1px solid #ddd; text-align: center; }
+#charge .charge_area .table_area table th { background-color: #eee; font-size: 18px; letter-spacing: 1px; }
+#charge .charge_area .table_area table td { background-color: #fff; color: #555; }
+#charge .charge_area .table_name { margin-top: 20px; font-weight: bold; color: #555; text-align: center; }
+
+@media (max-width: 767px) {
+	#charge .charge_area .rows h2 { font-size: 22px; }
+	#charge .charge_area .rows p { font-size: 16px; }
+	#charge .charge_area .table_area table th { padding: 12px 10px; font-size: 14px; }
+	#charge .charge_area .table_area table td { padding: 12px 10px; font-size: 12px; }
+}
